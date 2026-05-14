@@ -351,10 +351,10 @@
     }
 
     .member-card {
-      min-height: 88px;
+      min-height: 96px;
       display: grid;
       place-items: center;
-      padding: 12px;
+      padding: 12px 10px;
       color: #e5e7eb;
       font-size: clamp(0.7rem, 0.95vw, 0.86rem);
       font-weight: 700;
@@ -367,6 +367,16 @@
       color: var(--accent);
       font-size: 1.3rem;
       animation: floatY 3.4s ease-in-out infinite;
+    }
+    .member-card .member-id {
+      display: block;
+      margin-top: 6px;
+      color: var(--accent);
+      font-family: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+      font-size: 0.72rem;
+      font-weight: 800;
+      letter-spacing: 0.06em;
+      opacity: 0.9;
     }
     .member-card:nth-child(2) i { animation-delay: 0.3s; }
     .member-card:nth-child(3) i { animation-delay: 0.6s; }
@@ -1283,11 +1293,11 @@
           <p class="subtitle">Maestro: Victorino Ramirez Reyes</p>
         </div>
         <div class="members anim" aria-label="Integrantes del grupo">
-          <div class="member-card"><span><i class="fa-solid fa-user-astronaut"></i>Dauri Abad Sepulveda</span></div>
-          <div class="member-card"><span><i class="fa-solid fa-user-gear"></i>Alvaro Mercedes Acevedo Mariano</span></div>
-          <div class="member-card"><span><i class="fa-solid fa-user-ninja"></i>Daniel Asencio</span></div>
-          <div class="member-card"><span><i class="fa-solid fa-user-shield"></i>Johancer Basiel Bonet</span></div>
-          <div class="member-card"><span><i class="fa-solid fa-user-tie"></i>Jason Núñez De Los Santos</span></div>
+          <div class="member-card"><span><i class="fa-solid fa-user-astronaut"></i>Dauri Abad Sepulveda<small class="member-id">A00154181</small></span></div>
+          <div class="member-card"><span><i class="fa-solid fa-user-gear"></i>Alvaro Mercedes Acevedo Mariano<small class="member-id">A00164270</small></span></div>
+          <div class="member-card"><span><i class="fa-solid fa-user-ninja"></i>Daniel Asencio<small class="member-id">A00176173</small></span></div>
+          <div class="member-card"><span><i class="fa-solid fa-user-shield"></i>Johancer Basiel Bonet<small class="member-id">A00167452</small></span></div>
+          <div class="member-card"><span><i class="fa-solid fa-user-tie"></i>Jason Núñez De Los Santos<small class="member-id">A00154180</small></span></div>
         </div>
       </div>
       <div class="footer anim">
