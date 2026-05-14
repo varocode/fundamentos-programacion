@@ -5,3 +5,6 @@ Thumbs.db
 .idea/
 .vscode/
 node_modules/
+
+# Guiones personales de los expositores — NO compartir
+guion-*.md
